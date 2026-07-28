@@ -1,0 +1,12 @@
+git clone repo  -> clones a repo
+git checkout -b my_feature -> creates a new branch
+git status -> checks what all has been changed
+git add . -> adds all the files to staging for commit
+git commit -m "message" -> adds the commit message and creates a commit
+git push -> pushes your local branch to github
+click on link to create PR -> creates a PR
+approve PR -> other people look and approve
+merge PR -> updates main
+git checkout master -> go to master again
+git pull -> pull latest master
+then again git checkout -b new_feature_2 -> creates a new branch
