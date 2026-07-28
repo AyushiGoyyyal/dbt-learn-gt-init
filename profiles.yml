@@ -1,0 +1,13 @@
+jaffle_shop_5:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 4
+      account: inbscqw-ey35764
+      user: AYUSHIGOYAL
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: ACCOUNTADMIN
+      database: ANALYTICS
+      warehouse: TRANSFORMING
+      schema: DBT_AGOYAL
