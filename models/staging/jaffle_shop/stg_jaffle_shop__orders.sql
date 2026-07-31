@@ -5,4 +5,4 @@ select
         status,
         _ETL_LOADED_AT
 
-    from {{source('jaffle_shop', 'orders')}}
+    from {{ ref('orders_snapshot') }}

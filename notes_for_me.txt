@@ -10,3 +10,11 @@ merge PR -> updates main
 git checkout master -> go to master again
 git pull -> pull latest master
 then again git checkout -b new_feature_2 -> creates a new branch
+
+
+-- how to merge main branch into feature if chnages are introduced in main
+git checkout master -> went to master (it does not have vyoms changes)
+git pull -> went to pull the changes that vyom did (now it has vyoms changes)
+git checkout learning_ui_github -> went to your own branch  (it does not have my changes)
+git rebase origin/master -> (you pull in master changes on your branch)
+git push -> (updates your branch)

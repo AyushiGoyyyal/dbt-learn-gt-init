@@ -1,0 +1,11 @@
+seeds:
+    - name: employee
+      description: "Employee data"
+      columns:
+        - name: employee_id
+          description: "Unique identifier for each employee"
+          data_tests:
+            - not_null
+            - unique
+        - name: customer_id
+          description: "Identifier for the customer associated with the employee"
